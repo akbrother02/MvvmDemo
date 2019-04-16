@@ -1,4 +1,4 @@
-package com.example.mvvmdemo;
+package com.example.mvvmdemo.view.activity;
 
 import android.arch.lifecycle.ViewModelProviders;
 import android.databinding.DataBindingUtil;
@@ -7,12 +7,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.widget.Toast;
 
+import com.example.mvvmdemo.R;
 import com.example.mvvmdemo.callback.LoginResultCallBack;
 import com.example.mvvmdemo.databinding.ActivityMainBinding;
 import com.example.mvvmdemo.viewmodel.LoginViewFactory;
 import com.example.mvvmdemo.viewmodel.LoginViewModel;
 
-public class MainActivity extends AppCompatActivity implements LoginResultCallBack {
+public class LoginActivity extends AppCompatActivity implements LoginResultCallBack {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
